@@ -28,19 +28,19 @@
   - 例子
     - console.log(typeof(typeof [])) //"string"
 - 判断已知对象类型的方法： instanceof操作符（只用于对象）
-![](index_files/4b8563c1-759a-4939-acf3-07a539dd2dca.png)
+![](https://github.com/Ivyfcy/note/blob/master/img/4b8563c1-759a-4939-acf3-07a539dd2dca.png)
 
 ## 继承
 - 原型链继承
   - 核心思想：拿父类实例来当子类原型对象（重写子类的原型对象或者理解成子类的原型指向了另一个对象，不再是默认原型（Object的实例，其内部指针指向Object.prototype））
   - 缺点：1、原型对象的引用属性是所有实例`共享的`（解释：子类有两个实例对象，其中一个实例对象引用原型对象的属性，并改变属性。则另一个实例对象引用原型对象的属性就随之改变）2、创建子类实例时，无法向父类构造函数传参
   - eg：
-  ![](index_files/b21a389f-87f4-4bb2-ba86-900fafa3a352.png)
+  ![](https://github.com/Ivyfcy/note/blob/master/img/b21a389f-87f4-4bb2-ba86-900fafa3a352.png)
 - 借用构造函数  (apply(),call())
   - 核心思想:借父类的构造函数来增强子类实例(等于是把父类的实例属性复制了一份给子类实例装上了（完全没有用到原型）)
   - 优点：解决了原型链继承两个缺点
   - 缺点：无法实现函数复用，每个子类实例都持有一个新的fun函数，太多了就会影响性能，内存爆炸
-  - eg：![](index_files/f77e74c2-fa9c-48fd-8c27-15145d70537e.png)
+  - eg：![](https://github.com/Ivyfcy/note/blob/master/img/f77e74c2-fa9c-48fd-8c27-15145d70537e.png)
 - 组合继承 
   - 核心思想：使用原型链实现对原型属性和方法的继承，而通过借用构造函数来实现对实例属性的继承（让不同的实例分别拥有自己的属性，又可以使用相同的方法）
   - 优点：1.不存在引用属性共享问题,2.可传参,3.函数可复用
