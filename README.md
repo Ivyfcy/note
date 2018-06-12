@@ -1,5 +1,4 @@
 ## javascript学习笔记
-- 以下目录标题不全，小细节参考具体文章内容
 - [数据类型](https://github.com/Ivyfcy/note/blob/master/js/day1-js.md)
 - [基本概念](https://github.com/Ivyfcy/note/blob/master/js/day2-js.md)
 - [位操作](https://github.com/Ivyfcy/note/blob/master/js/day3-js.md)
@@ -10,12 +9,12 @@
 - [Function类型](https://github.com/Ivyfcy/note/blob/master/js/day8-js.md)
 - [基本包装类型](https://github.com/Ivyfcy/note/blob/master/js/day9-js.md)
 - [内置对象](https://github.com/Ivyfcy/note/blob/master/js/day10-js.md)
-- [面对对象](https://github.com/Ivyfcy/note/blob/master/js/day11-js.md)
-- [创建对象](https://github.com/Ivyfcy/note/blob/master/js/day12-js.md)
-- [创建对象](https://github.com/Ivyfcy/note/blob/master/js/day13-js.md)
-- [创建对象](https://github.com/Ivyfcy/note/blob/master/js/day14-js.md)
-- [创建对象](https://github.com/Ivyfcy/note/blob/master/js/day15-js.md)
-- [创建对象](https://github.com/Ivyfcy/note/blob/master/js/day16-js.md)
+- [理解对象](https://github.com/Ivyfcy/note/blob/master/js/day11-js.md)
+- [工厂模式](https://github.com/Ivyfcy/note/blob/master/js/day12-js.md)
+- [原型模式](https://github.com/Ivyfcy/note/blob/master/js/day13-js.md)
+- [原型模式](https://github.com/Ivyfcy/note/blob/master/js/day14-js.md)
+- [原型的动态链](https://github.com/Ivyfcy/note/blob/master/js/day15-js.md)
+- [构造函数模式和原型模式](https://github.com/Ivyfcy/note/blob/master/js/day16-js.md)
 - [继承](https://github.com/Ivyfcy/note/blob/master/js/day17-js继承.md)
 - [构造函数](https://github.com/Ivyfcy/note/blob/master/js/day18-js.md)
 - [函数表达式](https://github.com/Ivyfcy/note/blob/master/js/day19-js函数表达式.md)
@@ -30,4 +29,4 @@
 - [窗口大小](https://github.com/Ivyfcy/note/blob/master/js/day28-js.md)
 - [基本类型引用类型](https://github.com/Ivyfcy/note/blob/master/js/day29-js.md)
 - [es6数组扩展](https://github.com/Ivyfcy/note/blob/master/js/day30-es6.md)
-
+> 以上目录标题不全，小细节参考具体文章内容，由于是随机学习，学习笔记没有按分类写
