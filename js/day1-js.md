@@ -1,32 +1,35 @@
 # 数据类型
 - 1.(基本的数据类型，复杂的数据类型);2.（值类型，引用类型）
-- 5个基本的数据类型：字符串、数字、布尔、null、undefined;复杂的数据类型：对象（Object）
-- 值类型:存储的就是数据本身的变量：字符串、数字、布尔、null、undefined;
+- 5个基本的数据类型：String、Number、Boolean、Null、Undefined;复杂的数据类型：对象（Object）
+- 值类型:存储的就是数据本身的变量：String、Number、Boolean、Null、Undefined;
 - 值类型赋值：直接将存储的数据复制一份进行赋值，两份数据在内存中完全独立。
 - 引用类型：存储的是数据在内存的中的地址：Object（数据在内存中单独存储，就是引用类型数据）
 - 引用类型赋值：将变量中存储的地址复制一份单独存储，但是两个变量共享同一个对象，修改其中一个对象，另一个引用访问时，也会访问到修改后的对象
-    - 注意：如果引用类型做函数的参数，if函数内部重新创捷对象，为该形参赋值，那么两个对象将不再有关系，修改其中一个，另一个不受影响
+    - 注意：如果引用类型做函数的参数，如果函数内部重新创捷对象，为该形参赋值，那么两个对象将不再有关系，修改其中一个，另一个不受影响
+    > 值类型（原始值）是不可更改的，无论是字符串的截取还是拼接等方法还是Number运算等方法都没办法改变原字符串值;比较的是值的比较
+    > 引用类型对象是可变的，给对象添加属性和方法；比较并非值的比较而是指针
 
 ## null，undefined的区别
 - 不同点：
   - null表示空值没有对象(只能存一个对象)，undefined表示“未定义”
-  - undefined==null ture；undefined===null false(数据类型不同不全等，null的数据类型是对象，undefined的数据类型是undefined)
+  - undefined==null // ture；undefined===null // false(数据类型不同不全等，null的数据类型是对象，undefined的数据类型是undefined)
   - Number(undefieng)=NaN;Number(null)=0
 - 相同点：
   - null或undefined和其他任何数据类型比较都不相等
   - 在if语句中，undefined和null，都会被自动转为false
+  > undefined：如果要查询对象属性或数组元素的值时返回undefined，则说明这个属性或元素不存在
 
 ## 数据类型的判断
-- typeof 操作符
+- typeof 操作符（用于基本类型）
   - 局限性：不能具体检查Object下细分的类型
   - 例子
-    - typeof  undefined    //Undefined
-    - typeof  null        //Object （因为null类型被当做一个空对象引用）
-    - typeof    { }      //Object
-    - typeof    [ ]     //Object
+    - typeof  undefined    //Undefined
+    - typeof  null        //Object （因为null类型被当做一个空对象引用）
+    - typeof    { }      //Object
+    - typeof    [ ]     //Object
   - 对一个值使用typeof操作符返回对应数据类型的字符串
   - 例子
-    - console.log(typeof(typeof [])) //"string"
+    - console.log(typeof(typeof [])) //"string"
 - 判断已知对象类型的方法： instanceof操作符（只用于对象）
 ![](https://github.com/Ivyfcy/note/blob/master/img/4b8563c1-759a-4939-acf3-07a539dd2dca.png)
 
