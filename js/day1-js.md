@@ -17,7 +17,8 @@
 - 相同点：
   - null或undefined和其他任何数据类型比较都不相等
   - 在if语句中，undefined和null，都会被自动转为false
-  > undefined：如果要查询对象属性或数组元素的值时返回undefined，则说明这个属性或元素不存在
+> 如果要查询对象属性或数组元素的值时返回undefined则说明这个属性或元素不存在（如果查询一个不存在的属性不会报错，会返回undefined）
+> 如果对象不存在，查询这个不存在对象的属性就会报错，null和undefined都是没有属性。
 
 ## 数据类型的判断
 - typeof 操作符（用于基本类型）
