@@ -29,5 +29,5 @@
 - [窗口大小](https://github.com/Ivyfcy/note/blob/master/js/day28-js.md)
 - [基本类型引用类型](https://github.com/Ivyfcy/note/blob/master/js/day29-js.md)
 - [es6数组扩展](https://github.com/Ivyfcy/note/blob/master/js/day30-es6.md)
-- [es6Promise对象](https://github.com/Ivyfcy/note/blob/master/js/es6 promise.md)
+- [es6Promise对象](https://github.com/Ivyfcy/note/blob/master/js/es6-promise.md)
 > 以上目录标题不全，小细节参考具体文章内容，由于是随机学习，学习笔记没有按分类写
